@@ -6,7 +6,7 @@ import java.util.List;
 import org.junit.jupiter.api.Test;
 
 public class TestVolitale {
-	
+	//实现内存可见性
 	//规约、收集
 	@Test
 	public void test1() {
