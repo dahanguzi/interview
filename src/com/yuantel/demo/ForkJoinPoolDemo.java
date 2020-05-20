@@ -10,6 +10,7 @@ import org.junit.Test;
 public class ForkJoinPoolDemo {
 	//分支合并框架
 	public static void main(String[] args) {
+		//使用ForkJoinPool
 		ForkJoinPool pool = new ForkJoinPool();
 		
 		ForkJoinTask<Long> task = new ForkJoinPoolSumCalculate(0L,100000000L);
