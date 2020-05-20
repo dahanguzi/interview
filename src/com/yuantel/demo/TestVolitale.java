@@ -1,4 +1,4 @@
-package com.yuantel;
+package com.yuantel.demo;
 
 import java.util.Arrays;
 import java.util.List;
